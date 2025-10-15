@@ -1,4 +1,5 @@
-const BASE = '/windborne/treasure';
+const BASE = process.env.NODE_ENV === 'production' ? '/api/treasure' : '/windborne/treasure';
+export default BASE;
 
 function coerceNum(x) {
   if (x == null) return null;
