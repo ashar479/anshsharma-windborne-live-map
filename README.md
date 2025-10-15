@@ -1,8 +1,7 @@
 # WindBorne Live Map
 
 Interactive live map combining WindBorne balloon telemetry (last 24h) with Open-Meteo current weather.
-
-**Live demo:** https://YOUR_VERCEL_URL ← *replace with deployed URL*
+Resume: https://drive.google.com/file/d/19Wfk8fWFBkBU16lNx9Ip0A2VCyenkwKs/view?usp=sharing
 
 ## Summary
 This project queries WindBorne's live constellation API (latest 24 hours from `https://a.windbornesystems.com/treasure/00.json`) and displays balloon positions on a Leaflet map. Clicking a balloon shows current weather from Open-Meteo for that location. The page updates automatically (polling).
